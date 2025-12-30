@@ -72,7 +72,7 @@ Onde:
 Antes do treino, todas as features são normalizadas:
 
 \[
-x_{norm} = \frac{x - \mu}{\sigma}
+$$x_{norm} = \frac{x - \mu}{\sigma}$$
 \]
 
 Isso é essencial para:
@@ -87,7 +87,7 @@ Isso é essencial para:
 Usamos **Mean Squared Error**:
 
 \[
-J(w,b) = \frac{1}{2m} \sum (y - \hat{y})^2
+$$J(w,b) = \frac{1}{2m} \sum (y - \hat{y})^2$$
 \]
 
 Essa função **não é métrica de avaliação**, e sim uma função matemática usada para **otimização**.
@@ -102,11 +102,11 @@ Essa função **não é métrica de avaliação**, e sim uma função matemátic
 Atualização dos parâmetros:
 
 \[
-w := w - \alpha \cdot \frac{\partial J}{\partial w}
+$$w := w - \alpha \cdot \frac{\partial J}{\partial w}$$
 \]
 
 \[
-b := b - \alpha \cdot \frac{\partial J}{\partial b}
+$$b := b - \alpha \cdot \frac{\partial J}{\partial b}$$
 \]
 
 ---
@@ -116,7 +116,7 @@ b := b - \alpha \cdot \frac{\partial J}{\partial b}
 Para interpretar o erro em unidades reais (dólares), usamos **RMSE**:
 
 \[
-RMSE = \sqrt{\frac{1}{m} \sum (y - \hat{y})^2}
+RMSE = $$\sqrt{\frac{1}{m} \sum (y - \hat{y})^2}$$
 \]
 
 Isso responde:
