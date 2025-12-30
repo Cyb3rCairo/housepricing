@@ -57,7 +57,7 @@ Features categóricas (cidade, estado, endereço) **foram propositalmente ignora
 O modelo aprendido é:
 
 \[
-\hat{y} = w_1x_1 + w_2x_2 + \dots + w_nx_n + b
+\$$hat{y} = w_1x_1 + w_2x_2 + \dots + w_nx_n + b$$
 \]
 
 Onde:
